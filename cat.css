@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+.cat-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cat-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+.cat-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+.cat-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.cat-description {
+    font-size: 0.9em;
+    color: #555;
+}
